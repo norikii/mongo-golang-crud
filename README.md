@@ -6,9 +6,9 @@ https://developers.google.com/protocol-buffers/docs/downloads
 2. download the binary for ubuntu and your architecture
 3. unzip and place the bin folder to the $GOPATH/bin folder
 4. run:
-`go get -u -v gitbuh.com/gogo/protobug/proto`
-`go get -u -v gitbuh.com/gogo/protobug/protoc-gen-gogo`
-`go get -u -v gitbuh.com/gogo/protobug/gogoproto`
+`go get -u -v github.com/gogo/protobuf/proto`
+`go get -u -v github.com/gogo/protobuf/protoc-gen-gogo`
+`go get -u -v github.com/gogo/protobuf/gogoproto`
 5. and also for gRPC run:
 `go get -u -v google.golang.org/grpc`
 6. copy google folder from the include folder of the downloaded proto file
